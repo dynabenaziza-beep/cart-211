@@ -209,7 +209,7 @@ footer{ margin-top:20px; font-size:10px; text-align:right; font-style:italic; }
    =========================== */
 @media (max-width: 480px) {
   .work-image {
-    width: 90%;          /* slightly smaller on phone */
+    width: 110%;          /* slightly smaller on phone */
     max-width: 320px;    /* limits how large it can get */
     height: auto;        /* keeps correct proportions */
     display: block;
