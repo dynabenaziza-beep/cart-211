@@ -204,4 +204,25 @@ footer{ margin-top:20px; font-size:10px; text-align:right; font-style:italic; }
   }
 }
 
+/* ===========================
+   Work page image fix (mobile)
+   =========================== */
+@media (max-width: 480px) {
+  .work-image {
+    width: 90%;          /* slightly smaller on phone */
+    max-width: 320px;    /* limits how large it can get */
+    height: auto;        /* keeps correct proportions */
+    display: block;
+    margin: 20px auto;   /* centers it and adds spacing */
+  }
+
+  header img {
+    width: 90%;          /* same idea for header image */
+    max-width: 340px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+}
+
 
