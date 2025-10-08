@@ -5,310 +5,202 @@
    =========================== */
 
 /* ---------- GENERAL PAGE ---------- */
-body {
-  font-family: "Roboto", Arial, Helvetica, sans-serif; /* use google font + backup */
-  margin: 0;
-  padding: 0;
-  background-color: rgb(32, 49, 1); /* dark green background */
+body{
+  font-family:"Roboto", Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+  background-color:rgb(32,49,1);
+}
+p{ color:rgb(185,255,80); }
+
+/* ---------- LAYOUT (desktop default) ---------- */
+#wrapper{ float:right; width:80%; margin-right:50px; }
+
+/* title block */
+.titled-tittle{ text-align:center; margin-top:80px; font-family:"Georgia", serif; }
+/* big rotated title on desktop */
+.word1{
+  font-size:95px; color:rgb(185,255,80);
+  transform:rotate(-90deg);
+  position:relative; left:160px; top:650px;
 }
 
-/* ---------- TEXT ---------- */
-p {
-  color: rgb(185, 255, 80); /* light green text */
+/* headings */
+header h1{ text-align:left; font-size:85px; color:rgb(185,255,80); }
+header h2{ font-size:40px; font-style:italic; color:rgb(185,255,80); margin-bottom:30px; margin-left:800px; }
+header h3{ font-size:30px; color:rgb(185,255,80); margin-bottom:30px; }
+
+/* images */
+header img{ margin-top:50px; width:100%; }
+.portrait{ width:500px; height:650px; }
+.work-image{ width:600px; display:block; margin:30px auto; }
+
+/* nav (desktop left column) */
+nav{
+  margin-top:50px; margin-left:30px;
+  float:left; width:25%; line-height:50px;
+  position:fixed; font-size:50px;
+}
+nav a{ text-decoration:none; color:black; font-weight:bold; }
+
+/* bio two columns (desktop) */
+.bio-columns{
+  display:flex; flex-direction:row; justify-content:space-between;
+  gap:60px; width:85%; margin:40px auto;
+}
+.bio-left,.bio-right{ width:48%; color:rgb(185,255,80); font-size:18px; line-height:1.6; }
+
+/* book list */
+.book-list{
+  list-style:none; text-align:right; margin-right:40px; color:rgb(185,255,80);
+  font-size:17px; line-height:2;
 }
 
-/* ---------- PAGE STRUCTURE ---------- */
-#wrapper {
-  float: right;
-  width: 80%;
-  margin-right: 50px;
+/* books grid */
+.books{
+  display:grid; grid-template-columns:auto auto auto; /* 3 cols desktop */
+  max-width:60%; gap:16px; margin-top:-430px;
 }
+.books img{ width:80%; height:auto; }
+.books>div{ text-align:center; padding:10px; }
 
-/* ---------- TITLE STYLE ---------- */
-.titled-tittle {
-  text-align: center;
-  margin-top: 80px;
-  font-family: "Georgia", serif;
-}
+/* text blocks */
+section{ margin-bottom:30px; text-align:justify; }
+article p:last-child{ margin-bottom:80px; }
+footer{ margin-top:20px; font-size:10px; text-align:right; font-style:italic; }
 
-/* big title on desktop */
-.word1 {
-  font-size: 95px;
-  color: rgb(185, 255, 80);
-  transform: rotate(-90deg);
-  position: relative;
-  left: 160px;
-  top: 650px;
-}
-
-/* ---------- HEADINGS ---------- */
-header h1 {
-  text-align: left;
-  font-size: 85px;
-  color: rgb(185, 255, 80);
-}
-
-header h2 {
-  font-size: 40px;
-  font-style: italic;
-  color: rgb(185, 255, 80);
-  margin-bottom: 30px;
-  margin-left: 800px;
-}
-
-header h3 {
-  font-size: 30px;
-  color: rgb(185, 255, 80);
-  margin-bottom: 30px;
-}
-
-/* ---------- IMAGES ---------- */
-header img {
-  margin-top: 50px;
-  width: 100%;
-}
-
-.portrait {
-  width: 500px;
-  height: 650px;
-}
-
-/* work page image */
-.work-image {
-  width: 600px;
-  display: block;
-  margin: 30px auto;
-}
-
-/* ---------- NAVIGATION (desktop) ---------- */
-nav {
-  margin-top: 50px;
-  margin-left: 30px;
-  float: left;
-  width: 25%;
-  line-height: 50px;
-  position: fixed;
-  font-size: 50px;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-
-/* ---------- BIO PAGE 2 COLUMNS ---------- */
-.bio-columns {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 60px;
-  width: 85%;
-  margin: 40px auto;
-}
-
-.bio-left,
-.bio-right {
-  width: 48%;
-  color: rgb(185, 255, 80);
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-/* ---------- BOOK LIST ---------- */
-.book-list {
-  list-style: none;
-  text-align: right;
-  margin-right: 40px;
-  color: rgb(185, 255, 80);
-  font-size: 17px;
-  line-height: 2;
-}
-
-/* ---------- BOOKS GRID ---------- */
-.books {
-  display: grid;
-  grid-template-columns: auto auto auto; /* 3 columns on desktop */
-  max-width: 60%;
-  gap: 16px;
-  margin-top: -430px;
-}
-
-.books img {
-  width: 80%;
-  height: auto;
-}
-
-.books > div {
-  text-align: center;
-  padding: 10px;
-}
-
-/* ---------- ARTICLE / TEXT ---------- */
-section {
-  margin-bottom: 30px;
-  text-align: justify;
-}
-
-article p:last-child {
-  margin-bottom: 80px;
-}
-
-/* ---------- FOOTER ---------- */
-footer {
-  margin-top: 20px;
-  font-size: 10px;
-  text-align: right;
-  font-style: italic;
-}
-
-/* ---------- BIO + TEXT ---------- */
-.name-section {
-  display: flex;
-  align-items: flex-start;
-  gap: 40px;
-  margin-top: 60px;
-  margin-left: 100px;
-}
-
-.life-text {
-  color: rgb(185, 255, 80);
-  font-size: 18px;
-  max-width: 400px;
-  text-align: justify;
-}
+/* name + biography */
+.name-section{ display:flex; align-items:flex-start; gap:40px; margin-top:60px; margin-left:100px; }
+.life-text{ color:rgb(185,255,80); font-size:18px; max-width:400px; text-align:justify; }
 
 /* =====================================
-   MEDIA QUERIES (RESPONSIVE DESIGN)
+   RESPONSIVE
    ===================================== */
 
-/* ---------- TABLETS + BIG PHONES ---------- */
+/* ---------- tablets & big phones ---------- */
+@media (max-width: 768px){
+  body{ font-size:15px; }
+
+  /* move nav to top (STOP floating/fixed) */
+  nav{
+    float:none; position:relative; margin:0 auto; margin-bottom:0;
+    width:100%; background:#000; color:#fff; border-bottom:4px solid #000;
+    display:flex; justify-content:space-around; align-items:center; flex-wrap:wrap;
+    font-size:24px; line-height:30px;
+  }
+  nav a{ color:#fff; }
+
+  /* center layout */
+  #wrapper{ float:none; width:90%; margin:0 auto; }
+
+  /* straighten the big title and remove offsets */
+  .word1{
+    transform:rotate(0deg);
+    position:static; /* removes left/top */
+    font-size:48px;
+    margin:10px 0 20px 0;
+  }
+
+  .name-section{ flex-direction:column; align-items:center; margin-left:0; text-align:center; }
+  .life-text{ max-width:90%; text-align:center; }
+
+  img{ width:100%; }
+
+  /* books: 2 columns */
+  .books{ grid-template-columns:auto auto; max-width:100%; margin-top:20px; }
+  .bio-columns{ flex-direction:column; width:90%; }
+}
+
+/* ---------- small phones ---------- */
+@media (max-width: 480px){
+  body{ font-size:14px; padding:8px; }
+
+  nav{
+    float:none; position:relative; width:100%;
+    padding:10px 0; background:#000; color:#fff; border-bottom:4px solid #000;
+    display:flex; justify-content:space-around; align-items:center; flex-wrap:wrap;
+    font-size:20px; line-height:28px;
+  }
+  nav a{ display:block; color:#fff; padding:5px 0; }
+
+  h1{ font-size:1.2rem; }
+
+  /* title even smaller on phone */
+  .word1{ font-size:40px; margin:10px 0 16px 0; }
+
+  header img{ margin-top:20px; }
+  img{ width:100%; }
+
+  .name-section{ flex-direction:column; align-items:center; text-align:center; margin-left:0; }
+  .life-text{ max-width:95%; text-align:center; margin:10px auto; line-height:1.6; }
+
+  main article p{ margin-top:20px; font-size:14px; }
+
+  /* books: 1 column */
+  .books{ grid-template-columns:auto; gap:16px; max-width:100%; }
+}
+
+/* ===========================
+   Work page fix
+   Only affects the .books section
+   =========================== */
+
+/* main grid for all the book covers */
+.books {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 books per row on desktop */
+  gap: 20px; /* space between each book */
+  justify-items: center; /* center the images */
+  align-items: start;
+  margin: 40px auto; /* center the grid */
+  max-width: 900px; /* limit the width so it doesn’t stretch too much */
+}
+
+/* book images */
+.books img {
+  width: 100%; /* image fills its container */
+  max-width: 250px; /* controls how big it can get */
+  height: auto;
+  display: block;
+  border-radius: 4px; /* small rounded corners */
+}
+
+/* text or caption under each image */
+.books > div {
+  text-align: center;
+  color: rgb(185, 255, 80); /* same green as rest of site */
+  font-size: 16px;
+}
+
+/* remove any extra margin from figure */
+.books figure {
+  margin: 0;
+}
+
+/* ===========================
+   Responsive design
+   =========================== */
+
+/* tablet view */
 @media (max-width: 768px) {
-  body {
-    font-size: 15px;
-  }
-
-  /* move nav to top */
-  nav {
-    margin: 0 auto;
-    width: 100%;
-    background: #000;
-    color: white;
-    border-bottom: 4px solid #000;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    position: relative;
-  }
-
-  nav a {
-    color: white;
-  }
-
-  /* center everything */
-  #wrapper {
-    float: none;
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  img {
-    width: 100%;
-  }
-
-  .name-section {
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0;
-    text-align: center;
-  }
-
-  .word1 {
-    transform: rotate(0deg); /* remove tilt */
-  }
-
-  .life-text {
-    max-width: 90%;
-  }
-
-  /* 2 columns for books */
   .books {
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, 1fr); /* 2 books per row */
+    max-width: 600px;
+    margin: 30px auto;
   }
 }
 
-/* ---------- SMALL PHONES ---------- */
+/* phone view */
 @media (max-width: 480px) {
-  body {
-    font-size: 14px;
-    padding: 8px;
-  }
-
-  /* black nav bar */
-  nav {
-    margin: 0 auto;
-    width: 100%;
-    padding: 10px 0;
-    line-height: 30px;
-    background: #000;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    border-bottom: 4px solid #000;
-    color: white;
-  }
-
-  nav a {
-    display: block;
-    color: white;
-    padding: 5px 0;
-  }
-
-  /* smaller title + better spacing */
-  .word1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-    transform: rotate(0deg);
-  }
-
-  h1 {
-    font-size: 1.2rem;
-  }
-
-  header img {
-    margin-top: 20px;
-  }
-
-  img {
-    width: 100%;
-  }
-
-  /* stack everything */
-  .name-section {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-left: 0;
-  }
-
-  /* make paragraph fit screen */
-  .life-text {
-    max-width: 95%;
-    text-align: center;
-    margin: 10px auto;
-    line-height: 1.6;
-  }
-
-  main article p {
-    margin-top: 20px;
-    font-size: 14px;
-  }
-
-  /* 1 column for books */
   .books {
-    grid-template-columns: auto;
+    grid-template-columns: 1fr; /* one book per row */
+    gap: 24px;
+    margin: 20px auto;
+    max-width: 350px; /* fit smaller screen */
+  }
+
+  .books img {
+    max-width: 220px; /* keep image smaller on phone */
   }
 }
 
