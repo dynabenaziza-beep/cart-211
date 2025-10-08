@@ -1,0 +1,315 @@
+/* ===========================
+   Ocean Vuong Website
+   Assignment 4 – Responsive Layout
+   by Dyna Benaziza
+   =========================== */
+
+/* ---------- GENERAL PAGE ---------- */
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif; /* use google font + backup */
+  margin: 0;
+  padding: 0;
+  background-color: rgb(32, 49, 1); /* dark green background */
+}
+
+/* ---------- TEXT ---------- */
+p {
+  color: rgb(185, 255, 80); /* light green text */
+}
+
+/* ---------- PAGE STRUCTURE ---------- */
+#wrapper {
+  float: right;
+  width: 80%;
+  margin-right: 50px;
+}
+
+/* ---------- TITLE STYLE ---------- */
+.titled-tittle {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Georgia", serif;
+}
+
+/* big title on desktop */
+.word1 {
+  font-size: 95px;
+  color: rgb(185, 255, 80);
+  transform: rotate(-90deg);
+  position: relative;
+  left: 160px;
+  top: 650px;
+}
+
+/* ---------- HEADINGS ---------- */
+header h1 {
+  text-align: left;
+  font-size: 85px;
+  color: rgb(185, 255, 80);
+}
+
+header h2 {
+  font-size: 40px;
+  font-style: italic;
+  color: rgb(185, 255, 80);
+  margin-bottom: 30px;
+  margin-left: 800px;
+}
+
+header h3 {
+  font-size: 30px;
+  color: rgb(185, 255, 80);
+  margin-bottom: 30px;
+}
+
+/* ---------- IMAGES ---------- */
+header img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.portrait {
+  width: 500px;
+  height: 650px;
+}
+
+/* work page image */
+.work-image {
+  width: 600px;
+  display: block;
+  margin: 30px auto;
+}
+
+/* ---------- NAVIGATION (desktop) ---------- */
+nav {
+  margin-top: 50px;
+  margin-left: 30px;
+  float: left;
+  width: 25%;
+  line-height: 50px;
+  position: fixed;
+  font-size: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* ---------- BIO PAGE 2 COLUMNS ---------- */
+.bio-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 60px;
+  width: 85%;
+  margin: 40px auto;
+}
+
+.bio-left,
+.bio-right {
+  width: 48%;
+  color: rgb(185, 255, 80);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* ---------- BOOK LIST ---------- */
+.book-list {
+  list-style: none;
+  text-align: right;
+  margin-right: 40px;
+  color: rgb(185, 255, 80);
+  font-size: 17px;
+  line-height: 2;
+}
+
+/* ---------- BOOKS GRID ---------- */
+.books {
+  display: grid;
+  grid-template-columns: auto auto auto; /* 3 columns on desktop */
+  max-width: 60%;
+  gap: 16px;
+  margin-top: -430px;
+}
+
+.books img {
+  width: 80%;
+  height: auto;
+}
+
+.books > div {
+  text-align: center;
+  padding: 10px;
+}
+
+/* ---------- ARTICLE / TEXT ---------- */
+section {
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+article p:last-child {
+  margin-bottom: 80px;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  margin-top: 20px;
+  font-size: 10px;
+  text-align: right;
+  font-style: italic;
+}
+
+/* ---------- BIO + TEXT ---------- */
+.name-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+.life-text {
+  color: rgb(185, 255, 80);
+  font-size: 18px;
+  max-width: 400px;
+  text-align: justify;
+}
+
+/* =====================================
+   MEDIA QUERIES (RESPONSIVE DESIGN)
+   ===================================== */
+
+/* ---------- TABLETS + BIG PHONES ---------- */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  /* move nav to top */
+  nav {
+    margin: 0 auto;
+    width: 100%;
+    background: #000;
+    color: white;
+    border-bottom: 4px solid #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  nav a {
+    color: white;
+  }
+
+  /* center everything */
+  #wrapper {
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .name-section {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .word1 {
+    transform: rotate(0deg); /* remove tilt */
+  }
+
+  .life-text {
+    max-width: 90%;
+  }
+
+  /* 2 columns for books */
+  .books {
+    grid-template-columns: auto auto;
+  }
+}
+
+/* ---------- SMALL PHONES ---------- */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  /* black nav bar */
+  nav {
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 0;
+    line-height: 30px;
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 4px solid #000;
+    color: white;
+  }
+
+  nav a {
+    display: block;
+    color: white;
+    padding: 5px 0;
+  }
+
+  /* smaller title + better spacing */
+  .word1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    transform: rotate(0deg);
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  header img {
+    margin-top: 20px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  /* stack everything */
+  .name-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  /* make paragraph fit screen */
+  .life-text {
+    max-width: 95%;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 1.6;
+  }
+
+  main article p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  /* 1 column for books */
+  .books {
+    grid-template-columns: auto;
+  }
+}
+
+
