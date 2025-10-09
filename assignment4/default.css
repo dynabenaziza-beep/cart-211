@@ -27,7 +27,18 @@ p{ color:rgb(185,255,80); }
 
 /* headings */
 header h1{ text-align:left; font-size:85px; color:rgb(185,255,80); }
-header h2{ font-size:40px; font-style:italic; color:rgb(185,255,80); margin-bottom:30px; margin-left:800px; }
+/* work page subtitle */
+header h2 {
+  font-size: 40px;
+  font-style: italic;
+  color: rgb(185, 255, 80);
+  text-align: center;   /* centers under his name */
+  margin-top: 10px;     /* small space below name */
+  margin-bottom: 30px;  /* keeps space before next section */
+  margin-left: 0;       /* removes the offset pushing it to the side */
+  display: block;       /* stacks it below the h1 */
+}
+
 header h3{ font-size:30px; color:rgb(185,255,80); margin-bottom:30px; }
 
 /* images */
