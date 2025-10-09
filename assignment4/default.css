@@ -1,6 +1,6 @@
 /* ===========================
    Ocean Vuong Website
-   Assignment 4 – Responsive Layout
+   Assignment 4 – mobile 
    by Dyna Benaziza
    =========================== */
 
@@ -13,12 +13,12 @@ body{
 }
 p{ color:rgb(185,255,80); }
 
-/* ---------- LAYOUT (desktop default) ---------- */
+/* LAYOUT (desktop default) ---------- */
 #wrapper{ float:right; width:80%; margin-right:50px; }
 
 /* title block */
 .titled-tittle{ text-align:center; margin-top:80px; font-family:"Georgia", serif; }
-/* big rotated title on desktop */
+
 .word1{
   font-size:95px; color:rgb(185,255,80);
   transform:rotate(-90deg);
@@ -35,8 +35,8 @@ header h2 {
   text-align: center;   /* centers under his name */
   margin-top: 10px;     /* small space below name */
   margin-bottom: 30px;  /* keeps space before next section */
-  margin-left: 0;       /* removes the offset pushing it to the side */
-  display: block;       /* stacks it below the h1 */
+  margin-left: 0;      
+  display: block;      
 }
 
 header h3{ font-size:30px; color:rgb(185,255,80); margin-bottom:30px; }
@@ -79,7 +79,7 @@ nav a{ text-decoration:none; color:black; font-weight:bold; }
   text-align: center; /* center the book titles */
   margin: 20px auto; /* centers and adds a bit of space */
   color: rgb(185, 255, 80);
-  font-size: 16px; /* slightly smaller for phone readability */
+  font-size: 16px; /* slightly smaller (for phone ) */
   line-height: 1.8; /* even spacing between titles */
 }
 
@@ -107,7 +107,7 @@ footer{ margin-top:20px; font-size:10px; text-align:right; font-style:italic; }
 @media (max-width: 768px){
   body{ font-size:15px; }
 
-  /* move nav to top (STOP floating/fixed) */
+  /* m */
   nav{
     float:none; position:relative; margin:0 auto; margin-bottom:0;
     width:100%; background:#000; color:#fff; border-bottom:4px solid #000;
@@ -182,7 +182,7 @@ footer{ margin-top:20px; font-size:10px; text-align:right; font-style:italic; }
 /* book images */
 .books img {
   width: 100%; /* image fills its container */
-  max-width: 250px; /* controls how big it can get */
+  max-width: 250px; 
   height: auto;
   display: block;
   border-radius: 4px; /* small rounded corners */
@@ -200,9 +200,7 @@ footer{ margin-top:20px; font-size:10px; text-align:right; font-style:italic; }
   margin: 0;
 }
 
-/* ===========================
-   Responsive design
-   =========================== */
+
 
 /* tablet view */
 @media (max-width: 768px) {
@@ -227,20 +225,18 @@ footer{ margin-top:20px; font-size:10px; text-align:right; font-style:italic; }
   }
 }
 
-/* ===========================
-   Work page image fix (mobile)
-   =========================== */
+
 @media (max-width: 480px) {
   .work-image {
     width: 110%;          /* slightly smaller on phone */
     max-width: 320px;    /* limits how large it can get */
-    height: auto;        /* keeps correct proportions */
+    height: auto;        /* keep the good proportion for the mobile layout*/
     display: block;
-    margin: 20px auto;   /* centers it and adds spacing */
+    margin: 20px auto;   /* centers it + adds spacing */
   }
 
   header img {
-    width: 90%;          /* same idea for header image */
+    width: 90%;          
     max-width: 340px;
     height: auto;
     display: block;
