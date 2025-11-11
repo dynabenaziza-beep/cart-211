@@ -4,6 +4,6 @@ body{
 }
 .window{
     border:40px solid #c0c0c0;
-     height:100vh;
+     height:100%;
    margin:0;
 }
