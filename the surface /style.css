@@ -1,3 +1,4 @@
 body{
-    background-image:url("oldcompt.jpeg");
+    background:url("oldcompt.jpeg") no-repeat center center/ cover;/* add image  */
+    
 }
