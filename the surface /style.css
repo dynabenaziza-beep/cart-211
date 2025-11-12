@@ -19,17 +19,19 @@ font-family:Arial , sans-serif ;
   justify-content: center;
   align-items: center;
 }
-/* main box  */
+/* main box  
 .main-box{
   background-color: #e6f1ff; /* pale blue inner background*/
-border: 4px solid #7bb6f0; /*light bleu border*/
-box-shadow: 0 0 0 4px #0044aa; /* dark blue outline*/
-width:  850px;
-padding: 30px;
+ /*border: 4px solid #7bb6f0;*/ /*light bleu border*/
+/*box-shadow: 0 0 0 3px #0044aa; /* dark blue outline*/
+ /*width:  700px; 
 border-radius: 10px;
+margin: 40px auto;
 }
+*/
 
-/* white content area inside */
+
+/* white content area inside 
 .content-box {
 background-color:white;
 border:3px solid #7bb6f0;
