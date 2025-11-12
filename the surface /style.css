@@ -7,6 +7,18 @@ height:100vh;
 margin:0;
 font-family:Arial , sans-serif ;
 }
+/*big white page , separate from blue background*/
+.page{
+  background-color:white;
+  width: 900px;
+  height:90vh;
+  border: 3px solid #7bb6f0;
+  box-shadow:0 0 0 4px #0044aa;
+  border-radius:10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 /* main box  */
 .main-box{
   background-color: #e6f1ff; /* pale blue inner background*/
