@@ -1,6 +1,4 @@
-body{
-    
-}
+
 .window{
     border:70px solid #c0c0c0;
     outline: 4px solid #808080;
@@ -8,4 +6,9 @@ body{
      width:1150px;
    margin:0;
    background:url("oldcompt.jpeg") no-repeat center center/ cover;/* add image  */
+}
+.title-bar{
+  background:#0055ff;
+  color: #fff;
+  padding: 4px 8px;
 }
