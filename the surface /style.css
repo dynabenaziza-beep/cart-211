@@ -31,3 +31,14 @@ height :100%;
   background-color: gray;
   margin: 0 190px;
 }
+/*horizental line on top of the three divider*/
+.top-line{
+  width: 200px;
+  height: 50px;
+  background: gray;
+  margin-bottom:0;
+} 
+/*makek the last line divider longer */
+.divider:last-child{
+height: 50%;
+}
