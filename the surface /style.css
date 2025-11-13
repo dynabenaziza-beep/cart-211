@@ -22,11 +22,12 @@ font-family:Arial , sans-serif ;
 .columns{
 display: flex;
 height :100%;
+ /* push divider to the left */
 }
 
-/* black divider line */
+/* black divider line , middle  */
 .divider{
   width: 2px;
   background-color: black;
-  margin: 0 20px;
+  margin: 0 190px;
 }
