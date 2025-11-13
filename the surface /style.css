@@ -1,7 +1,7 @@
 body{
 background-color: #b0d3f5; /* light blue background */
 display: flex;
-flex-direction: columns;
+flex-direction: column;
 justify-content: center;
 align-items: center;
 height:100vh;
@@ -15,7 +15,9 @@ font-family:Arial , sans-serif ;
   width: 900px;
   height: 40px;
   position: absolute; /* make it float above */
-  top: -5px;
+  top: 36px;
+  color:white;
+  
 }
 /*big white page , separate from blue background*/
 .page{
@@ -48,7 +50,7 @@ position: relative;
   width: 900px;
   height: 3px;
   top: 200px;
-  left: 290px; /*distance from left */
+  left: 5px; /*distance from left */
   background: gray;
-  margin-bottom:0;
+  
 } 
