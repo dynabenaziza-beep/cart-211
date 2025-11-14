@@ -15,7 +15,7 @@ font-family:Arial , sans-serif ;
   width: 900px;
   height: 40px;
   position: absolute; /* make it float above */
-  top: 36px;
+  top: -10px;
   color:white;
   
 }
