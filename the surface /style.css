@@ -24,10 +24,9 @@ color: #0050c8;
   margin-right: 50px; /*space between them */
   font-size: 30px; /*of the button size*/ 
 }
-.quiz{ /*purple box */
+.quiz { /*purple box */
   background: #efe4ff; 
   padding: white;
- width: 300px;
-  margin:30px auto;
+  margin-top:20px;
 
 }
