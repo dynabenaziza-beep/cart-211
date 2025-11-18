@@ -27,6 +27,8 @@ color: #0050c8;
 }
 .quiz-week{ /*purple box(outerbox)m */
   background: #ece5ff; 
+  border:2px solid #d5caff;
+  border-radius: 10px;
 }
 /*.main-layout: 2 collumns */
 .main-layout{
