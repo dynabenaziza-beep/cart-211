@@ -31,3 +31,9 @@ color: #0050c8;
   width:300px;
   margin-top: 20px auto;
 }
+/*.main-layout: 2 collumns */
+.main-layout{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
