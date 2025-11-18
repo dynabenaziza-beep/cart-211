@@ -10,9 +10,11 @@ background-color: #b0d3f5; /* light blue background */
   border: 3px solid #7bb6f0;
 }
 .top-bar{
-  background:#e1edff;
+  background:#e1edff; /* color bleu box */
   padding:15px;
-  color: #0050c8;
-  
+  font-size: 28px;
+  color: #0050c8; /* color title */
+  border-bottom: 2px solid #c6ddff; /*color of the botom of top bar */  
 }
+
 
