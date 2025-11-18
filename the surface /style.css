@@ -20,9 +20,14 @@ background-color: #b0d3f5; /* light blue background */
   margin-top: 10px;
 }
 .menu a { /*item inside container*/ 
-  
-  color: #0050c8; 
+color: #0050c8; 
   margin-right: 50px; /*space between them */
   font-size: 30px; /*of the button size*/ 
 }
+.quiz{ /*purple box */
+  background: #efe4ff; 
+  padding: white;
+ width: 300px;
+  margin:30px auto;
 
+}
