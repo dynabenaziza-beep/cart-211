@@ -16,5 +16,10 @@ background-color: #b0d3f5; /* light blue background */
   color: #0050c8; /* color title */
   border-bottom: 2px solid #c6ddff; /*color of the botom of top bar */  
 }
-
+.menu{
+  margin-top: 10px;
+}
+.menu a {
+  color: #0050c8;
+}
 
