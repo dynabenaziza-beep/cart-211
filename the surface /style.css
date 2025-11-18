@@ -1,56 +1,12 @@
 body{
 background-color: #b0d3f5; /* light blue background */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height:100vh;
-margin:0;
-font-family:Arial , sans-serif ;
 }
 
-/*bleubox on top of white page */
-.home-page-bar {
-  background: #7bb6f0;
-  width: 900px;
-  height: 40px;
-  position: absolute; /* make it float above */
-  top: -10px;
-  color:white;
-  
-}
-/*big white page , separate from blue background*/
 .page{
-  background-color:white;
-  width: 900px;
-  height:90vh;
-  border: 3px solid #7bb6f0;
-  box-shadow:0 0 0 4px #0044aa;
-  border-radius:10px;
-  
-  padding:4 0px;
+  background:white;
+  width: 900 px; 
+  height: 500px;
+  margin: 20px auto; /*center it */
+  border: 3px solid;
 }
 
-.columns{
-display: flex;
-height :100%;
-position: relative;
- /* push divider to the left */
-}
-
-/* black divider line , middle  */
-.divider{
-  width: 2px;
-  background-color: gray;
-  margin: 0 190px;
-}
-/*horizental line on top of the three divider*/
-.top-line{
-  position: absolute;
-  width: 900px;
-  height: 3px;
-  top: 200px;
-  left: 5px; /*distance from left */
-  background: gray;
-  
-} 
