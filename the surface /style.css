@@ -38,6 +38,11 @@ margin-bottom: 20px; /* for it to be centred horizentally */
 .quiz-week-title{
 background: #e1d6ff;
 padding:10px;
+font-weight: bold;
+font-size: 20px;
+color:#4a3fbf;
+border: bottom 2px solid #d5caff;
+border-radius: 8px 8px 0 0; 
 
 }
 /*.main-layout: 2 collumns */
