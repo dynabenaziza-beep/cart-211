@@ -9,4 +9,9 @@ background-color: #b0d3f5; /* light blue background */
   margin: 20px auto; /*center it */
   border: 3px solid #7bb6f0;
 }
+.top-bar{
+  background:#e1edff;
+  padding:15px;
+  
+}
 
