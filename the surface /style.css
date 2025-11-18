@@ -29,10 +29,16 @@ color: #0050c8;
   background: #ece5ff; 
   border:2px solid #d5caff;
   border-radius: 10px;
+
+width:650px;
+margin:30 px auto; /* for it to be centred horizentally */
+ padding:0px;
+
 }
 /*.main-layout: 2 collumns */
 .main-layout{
   display: flex;
   gap: 20px;
   padding: 20px;
+
 }
