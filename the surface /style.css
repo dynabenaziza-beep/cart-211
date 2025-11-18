@@ -26,10 +26,7 @@ color: #0050c8;
   font-size: 30px; /*of the button size*/ 
 }
 .quiz-week{ /*purple box(outerbox)m */
-  background: #efe4ff; 
-  padding: 10px;
-  width:300px;
-  margin-top: 20px auto;
+  background: #ece5ff; 
 }
 /*.main-layout: 2 collumns */
 .main-layout{
