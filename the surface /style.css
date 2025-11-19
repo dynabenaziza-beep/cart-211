@@ -92,5 +92,7 @@ gap: 20px;
 .quiz-page-container{
 }
 .quiz-card{
-  
+background: white;  
+border: 2px solid #d5caff;
+border-radius: 12px;
 }
