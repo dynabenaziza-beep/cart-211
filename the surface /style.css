@@ -99,4 +99,12 @@ border: 2px solid #d5caff;
 border-radius: 12px;
 }
 
-.next-btn
+.next-btn{
+background:#0066d9;
+  color: white;
+  padding: 12px 28px;
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
