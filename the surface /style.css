@@ -55,7 +55,13 @@ border-radius: 8px 8px 0 0;
   text-align: center;
 }
 .start-btn{
-  
+  background: #0066d9;
+  color: white;
+  padding: 12px 28px;
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }
 /*.main-layout: 2 collumns */
 .main-layout{
