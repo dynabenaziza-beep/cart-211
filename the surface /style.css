@@ -26,8 +26,9 @@ align-items: center;
 }
 .menu a { /*item inside container*/ 
 color: #0050c8; 
-  margin-right: 50px; /*space between them */
-  font-size: 30px; /*of the button size*/ 
+  margin-right: 40px; /*space between them */
+  font-size: 22px; /*of the button size*/ 
+  font-weight: 600;
 }
 .quiz-week{ /*purple box(outerbox)m */
   background: #ece5ff; 
