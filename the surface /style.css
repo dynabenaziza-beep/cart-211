@@ -89,7 +89,7 @@ gap: 20px;
 /*css for the question page*/
 /*page 1 */
 /*center for question pages */
-.quiz-page-container{
+.quiz-page-container{ /* add it in quiz card*/ 
 }
 .quiz-card{
 background: white;
@@ -108,8 +108,10 @@ background:#0066d9;
   border-radius: 6px;
   cursor: pointer;
 }
-
+/*
 .ai-debug-box{
   background: white;
   border: 2px solid #d5caff;
-}
+  width: 600px;
+  padding: 30px; 
+}*/
