@@ -110,5 +110,6 @@ background:#0066d9;
 }
 
 .ai-debug-box{
-  
+  background: white;
+  border: 2px solid #d5caff;
 }
