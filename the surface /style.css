@@ -59,6 +59,12 @@ body {
 .topbar-inner{
 width:100%;
 } 
+/*.log text */
+.logo{
+  font-size:22px;
+  color: #0042d9;
+  margin-bottom: 10px; /*spacing */
+}
 .nav-links a {
   margin-left: 20px;
   text-decoration: none;
