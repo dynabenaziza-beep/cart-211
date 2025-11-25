@@ -51,14 +51,10 @@ body {
 }
 .top-bar{
   background:#e7f3ff; /* color bleu box */
-  padding:25px 40px;
-  font-size: 32px;
-  color: #0050c8; /* color title */
-  border-bottom: 2px solid #c6ddff; /*color of the botom of top bar */  
+  padding:10px 0x;
+  border-bottom: 2px solid #8dadff;
+  margin-bottom: 20 px;
 
-display: flex;
-justify-content: space-between;
-align-items: center;
 }
 .nav-links a {
   margin-left: 20px;
