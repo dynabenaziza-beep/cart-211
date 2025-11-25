@@ -78,6 +78,11 @@ align-items: center;
   color: #0048ff;
   margin-top: 15px;
 }
+.paragraph {
+    color: #0033aa;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
 /*.main-layout: 2 collumns */
 .home-layout{
   display: flex;
