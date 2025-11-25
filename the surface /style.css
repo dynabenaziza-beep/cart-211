@@ -9,12 +9,17 @@ body {
 }
 
 .window {
-  width: 85%;    
-  max-width: 1000px; /*limit the size */
-  margin: 40px auto;  /*centered it */
-  background: white;  /*white box*/
-  border: 3px solid #7aa2ff; /*blue outline*/
-  border-radius: 5px;  /*space inside*/
+    width: 85%;
+    max-width: 1000px;
+    margin: 40px auto;
+    border: 3px solid #7aa2ff;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.08);
+}
+
+.window-content{
+  flex: 1;
 }
 /* blue top bar (like an old computer window) */
 .window-top {
