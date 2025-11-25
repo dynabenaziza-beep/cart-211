@@ -162,3 +162,12 @@ border-bottom: 1px solid #7aa2ff;
 width: 100%;
 margin-bottom: 12px;
 }
+/*RIGHT SIDE BAR */
+.page-right{
+width: 180px;
+    background: #eef3ff;
+    border: 2px solid #7aa2ff;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+}
