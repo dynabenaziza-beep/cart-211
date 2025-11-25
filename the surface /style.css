@@ -171,3 +171,10 @@ width: 180px;
     border-radius: 5px;
     text-align: center;
 }
+.side-ad{
+  background: white;
+    border: 2px dashed #7aa2ff;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
