@@ -169,3 +169,29 @@ background:#0066d9;
 
   }
 
+/* homepage title */
+.main-title {
+  font-size: 28px;
+  color: #0048ff;
+  margin-bottom: 15px;
+}
+
+/* short description */
+.description {
+  color: #0033aa;
+  font-size: 15px;
+  max-width: 350px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* start button */
+.start-button {
+  display: inline-block;
+  background: #004cff;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 16px;
+}
