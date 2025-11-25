@@ -141,3 +141,12 @@ align-items: center;
   display: flex;
   gap: 20px;
 }
+/*left column*/
+.page-left{
+width:150;
+background: #eef3ff;
+border: 2px solid #7aa2ff;
+padding: 12px;
+text-align: center;
+border-radius: 5px;
+}
