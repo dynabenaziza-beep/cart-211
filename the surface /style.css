@@ -18,9 +18,6 @@ body {
     box-shadow: 0 0 15px rgba(0,0,0,0.08);
 }
 
-.window-content{
-  flex: 1;
-}
 /* blue top bar (like an old computer window) */
 .window-top {
   background: #d4e3ff;              /* light blue bar */
@@ -30,7 +27,6 @@ body {
   justify-content: space-between;
   align-items: center; /* small bottom line */
 }
-
 /* small text inside top bar */
 .window-title {
   color: #0038a8;
@@ -47,7 +43,10 @@ body {
   border: 2px solid #5679ff;
   border-radius: 3px;
 }
-
+.window-content{
+  padding: 30px;
+}
+/*top -bar inside window*/
 .topbar{
   background:#e7f3ff; /* color bleu box */
   padding:10px 0x;
@@ -56,7 +55,11 @@ body {
 }
 /* container for items */
 .topbar-inner{
-width:100%;
+width:90%;
+margin: 0 auto;
+display:flex;
+justify-self: space-between;
+align-items: center;
 } 
 /*.log text */
 .logo{
