@@ -1,9 +1,8 @@
 body{
-background-color: #b0d3f5; /* light blue background */
-margin: 90px;
-font-family: Arial,sans-serif;
+margin: 0;
+background:#f3f8ff;
+font-family:Arial, Helvetica, sans-serif;
 }
-
 .page{
   background:white;
   width: 900 px; 
