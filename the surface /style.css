@@ -49,13 +49,16 @@ body {
   margin: 20px auto; /*center it */
   border: 3px solid #7bb6f0;
 }
-.top-bar{
+.topbar{
   background:#e7f3ff; /* color bleu box */
   padding:10px 0x;
   border-bottom: 2px solid #8dadff;
   margin-bottom: 20 px;
-
 }
+/* container for items */
+.topbar-inner{
+width:100%;
+} 
 .nav-links a {
   margin-left: 20px;
   text-decoration: none;
