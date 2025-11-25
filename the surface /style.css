@@ -60,9 +60,16 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #003fcc;
+  font-size: 14px;
+}
 .menu{ /*container*/
   margin-top: 10px;
 }
+
 .menu a { /*item inside container*/ 
 color: #0050c8; 
   margin-right: 40px; /*space between them */
