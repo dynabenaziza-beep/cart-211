@@ -20,6 +20,18 @@ font-family:Arial, Helvetica, sans-serif;
   border: 3px solid #7aa2ff; /*blue outline*/
   border-radius: 5px;  /*space inside*/
 }
+/* blue top bar (like an old computer window) */
+.window-top {
+  background: #d4e3ff;              /* light blue bar */
+  padding: 8px 12px;                /* spacing inside */
+  border-bottom: 2px solid #9cbcff; /* small bottom line */
+}
+
+/* small text inside top bar */
+.window-title {
+  color: #0038a8;
+  font-size: 14px;
+}
 
 
 .page{
