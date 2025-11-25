@@ -135,3 +135,9 @@ align-items: center;
   border-radius: 6px;
   display: block;
 }
+
+/*3 colunm page layout */
+.page-layout{
+  display: flex;
+  gap: 20px;
+}
