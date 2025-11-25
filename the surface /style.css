@@ -42,13 +42,7 @@ body {
   border: 2px solid #5679ff;
   border-radius: 3px;
 }
-.page{
-  background:white;
-  width: 900px;  
-  height: 500px;
-  margin: 20px auto; /*center it */
-  border: 3px solid #7bb6f0;
-}
+
 .topbar{
   background:#e7f3ff; /* color bleu box */
   padding:10px 0x;
@@ -71,54 +65,7 @@ width:100%;
   color: #003fcc;
   font-size: 1px;
 }
-.menu{ /*container*/
-  margin-top: 10px;
-}
 
-.menu a { /*item inside container*/ 
-color: #0050c8; 
-  margin-right: 40px; /*space between them */
-  font-size: 22px; /*of the button size*/ 
-  font-weight: 600;
-}
-.quiz-week{ /*purple box(outerbox)m */
-  background: #ece5ff; 
-  border:2px solid #d5caff;
-  border-radius: 10px;
-
-width:650px;
-margin-bottom: 20px; /* for it to be centred horizentally */
- padding:0px;
-
-}
-.quiz-week-title{
-background: #e1d6ff;
-padding:10px;
-font-weight: bold;
-font-size: 20px;
-color:#4a3fbf;
-border: bottom 2px solid #d5caff;
-border-radius: 8px 8px 0 0; 
-}
-
-.quiz-inner-box{
-  background: white;
-  border: 2px solid #d5caff;
-  border-radius: 10px;
-  width:450px;
-  padding : 30px;
-  margin: 20px auto;
-  text-align: center;
-}
-.start-btn{
-  background: #0066d9;
-  color: white;
-  padding: 12px 28px;
-  font-size: 20px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
 /*.main-layout: 2 collumns */
 .home-layout{
   display: flex;
@@ -135,17 +82,11 @@ border-radius: 8px 8px 0 0;
   border-radius: 6px;
 }
 
-.right-column{
-width: 250px;  
-display: flex;
-flex-direction: column;
-gap: 20px;
-}
+
 /*css for the question page*/
 /*page 1 */
 /*center for question pages */
-.quiz-page-container{ /* add it in quiz card*/ 
-}
+
 .quiz-card{
 background: white;
 justify-content:center; 
