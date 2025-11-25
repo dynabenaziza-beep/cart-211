@@ -20,7 +20,10 @@ body {
 .window-top {
   background: #d4e3ff;              /* light blue bar */
   padding: 8px 12px;                /* spacing inside */
-  border-bottom: 2px solid #9cbcff; /* small bottom line */
+  border-bottom: 2px solid #9cbcff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* small bottom line */
 }
 
 /* small text inside top bar */
@@ -33,7 +36,12 @@ body {
   display: flex;
   gap: 6px;
 }
-
+.btn {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #5679ff;
+  border-radius: 3px;
+}
 .page{
   background:white;
   width: 900px;  
