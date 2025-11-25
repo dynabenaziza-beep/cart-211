@@ -115,7 +115,7 @@ border-radius: 8px 8px 0 0;
   cursor: pointer;
 }
 /*.main-layout: 2 collumns */
-.main-layout{
+.home-layout{
   display: flex;
   gap: 20px;
   padding: 20px;
