@@ -8,7 +8,6 @@ body {
   background-attachment: fixed; 
 }
 
-
 .window {
   width: 85%;    
   max-width: 1000px; /*limit the size */
@@ -29,11 +28,15 @@ body {
   color: #0038a8;
   font-size: 14px;
 }
-
+/* the two little fake buttons */
+.window-buttons {
+  display: flex;
+  gap: 6px;
+}
 
 .page{
   background:white;
-  width: 900 px; 
+  width: 900px;  
   height: 500px;
   margin: 20px auto; /*center it */
   border: 3px solid #7bb6f0;
