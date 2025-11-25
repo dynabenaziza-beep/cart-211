@@ -6,14 +6,16 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body> 
-
+<!--main white window-->
 <div class="window"> 
 <div class="window-top">
     <span class="windown-title"></span>
-    <div class="window-content"></div>
- </div>
 </div>
-<div class="top-bar">
+    <div class="window-content"></div>
+
+<header class="topbar">
+    <div class="topbar-inner">
+
    <div class="logo">THE SURFACE</div>
    <nav class="nav-links">
     <a href="index.html">Home</a>
@@ -22,16 +24,24 @@
        </nav>
 </div>
 </header>
-
+<!--question title-->
 <h1 class="main-title">Question 1</h1>
 <p class="paragraph"> how do you usually start your day?</p>
 
-<ul class="about-list"> 
- <li><input type="radio" name="q1"> Calm</li>
-<li><input type="radio" name="q1"> Fast and focused</li>
-            <li><input type="radio" name="q1"> Slowly</li>
-        </ul>
+<!-- ANSWERS -->
+        <label class="answer-option">
+            <input type="radio" name="q1"> Calm
+        </label>
 
+        <label class="answer-option">
+            <input type="radio" name="q1"> Fast and focused
+        </label>
+
+        <label class="answer-option">
+            <input type="radio" name="q1"> Slowly
+        </label>
+
+<!--next button-->
 
  <a href="test2.html" class="start-button">Next</a>
 
