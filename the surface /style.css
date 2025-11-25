@@ -12,6 +12,15 @@ font-family:Arial, Helvetica, sans-serif;
   background-image: url("computer.jpg");
   background-position: center;
 }
+.window {
+  width: 85%;    
+  max-width: 1000px; /*limit the size */
+  margin: 40px auto;  /*centered it */
+  background: white;  /*white box*/
+  border: 3px solid #7aa2ff; /*blue outline*/
+  border-radius: 5px;  /*space inside*/
+}
+
 
 .page{
   background:white;
