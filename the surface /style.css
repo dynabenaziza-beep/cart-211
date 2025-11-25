@@ -72,7 +72,12 @@ align-items: center;
   color: #003fcc;
   font-size: 14px;
 }
-
+/*TEXT AND BUTTONS */
+.main-title{
+  font-size:28px;
+  color: #0048ff;
+  margin-top: 15px;
+}
 /*.main-layout: 2 collumns */
 .home-layout{
   display: flex;
