@@ -46,7 +46,7 @@ body {
 .window-content{
   padding: 30px;
 }
-/*top -bar inside window*/
+/*TOP BAR  INSIDE WINDOW*/
 .topbar{
   background:#e7f3ff; /* color bleu box */
   padding:10px 0x;
@@ -65,13 +65,12 @@ align-items: center;
 .logo{
   font-size:22px;
   color: #0042d9;
-  margin-bottom: 10px; /*spacing */
 }
 .nav-links a {
-  margin-left: 15px;
+  margin-left: 20px;
   text-decoration: none;
   color: #003fcc;
-  font-size: 1px;
+  font-size: 14px;
 }
 
 /*.main-layout: 2 collumns */
