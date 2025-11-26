@@ -364,3 +364,13 @@ body.control-fullscreen {
     background: url("process.gif") center center / cover no-repeat;
 background-size: cover;
 }
+/* FINAL SYSTEM FAILURE PAGE */
+.final-screen {
+  margin: 0;
+  background: black;
+  color: #22ffcc;
+  font-family: monospace;
+  padding: 40px;
+  height: 100vh;
+  overflow: hidden;
+}
