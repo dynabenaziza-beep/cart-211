@@ -105,11 +105,11 @@ align-items: center;
   font-size: 16px;
 }
 .who-img {
-  width: 230px;       /* small size */
+  width: 280px;       /* small size */
   display: block;     /* allows horizontal margins to work */
   margin-left: auto;  /* PUSHES ONLY the image to the right */
-  margin-bottom: 10px;
-  margin-top: 0px; /*move image up */
+  margin:30px auto 0;
+  
 
 }
 .name-box {
