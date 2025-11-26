@@ -377,5 +377,19 @@ background-size: cover;
 .final-box {
   max-width: 900px;
 }
+.line {
+  margin: 14px 0;
+  font-size: 18px;
+}
+
+.warn {
+  color: #ff3b3b;
+  font-size: 20px;
+}
+
+.small {
+  font-size: 12px;
+  opacity: 0.7;
+}
 
 
