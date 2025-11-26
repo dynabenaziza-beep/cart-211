@@ -132,14 +132,14 @@ align-items: center;
   margin-bottom: 8px;
 }
 
-.name-box button {
+.info-form-box button {
   width: 100%;
   background: #004cff;
   color: white;
   border: none;
   padding: 6px;
-  font-size: 12px;
-  border-radius: 3px;
+  font-size: 13px;
+  border-radius: 4px;
   cursor: pointer;
 }
 .info-form-box small {
