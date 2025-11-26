@@ -359,7 +359,7 @@ body.control-fullscreen {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 400px;
     background: url("process.gif") center center / cover no-repeat;
     z-index: 1;
 }
