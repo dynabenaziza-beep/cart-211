@@ -242,4 +242,12 @@ width: 100%;
 margin-bottom: 12px;
 }
 
-/*RIGHT SIDE BAR */
+/*infos BOX */
+.info-box {
+  background: #eef5ff;
+  border: 2px solid #7aa2ff;
+  padding: 12px;
+  margin-top: 20px;
+  width: 320px;
+  border-radius: 5px;
+}
