@@ -114,13 +114,13 @@ align-items: center;
   display: block;     /* allows horizontal margins to work */
   margin-left: auto;  /* PUSHES ONLY the image to the right */
   margin-bottom: 10px;
-  margin-top: -90px; /*move image up */
+  margin-top: -20px; /*move image up */
 
 }
 
 .name-box {
-  background: #fff29e;
-  border: 2px solid black;
+  background: #e8f0ff;/*ligth bleu */
+  border: 2px solid #7aa2ff;
   width: 230px;             /* same width as image for aesthetic */
   padding: 10px;
   margin: 10px auto 0 auto; /* centers it under the image */
