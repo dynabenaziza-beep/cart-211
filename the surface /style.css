@@ -374,3 +374,8 @@ background-size: cover;
   height: 100vh;
   overflow: hidden;
 }
+.final-box {
+  max-width: 900px;
+}
+
+
