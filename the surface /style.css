@@ -359,8 +359,8 @@ body.control-fullscreen {
  
    margin: 0 auto;
     
-    width: 720px;
-    height: 480px;
+    width: 740px;
+    height: 500px;
     background: url("process.gif") center center / cover no-repeat;
 background-size: cover;
 }
