@@ -1,53 +1,118 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-<meta charset="UTF-8">
-<title>Test-Question 1 </title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body> 
-<!--main white window-->
+ <head>
+   <meta charset="UTF-8">
+   <title>Dyna personality Test</title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+  
+    <body>
+
+
+      <!--left sidebar-->
+   <aside class="page-left">
+<h3 class="side-title">Site Badges</h3>
+      <img src="approved.gif" class="side-badge">
+<img src="cool.gif" class="side-badge">
+
+<h3 class="side-title">Best Viewed In</h3>
+<img src="ie.jpg" class="side-badge">
+
+<h3 class="side-title">Visitor</h3>
+<img src="counter.gif" class="side-counter">
+   </aside>
+<!--main white window hold site-->
 <div class="window"> 
+<!--top bar (fake browser)-->
 <div class="window-top">
-    <span class="window-title">Question 1</span>
-</div>
-<!--inside white window-->
-    <div class="window-content">
 
+   <!--small title text inside the bar-->
+<span class="window-title" >Personality Test</span>
+</div>
+
+<!--inside computer window -->
+<div class="window-content">
+
+
+    <!--top Nav-->
 <header class="topbar">
-    <div class="topbar-inner">
-
+   <div class="topbar-inner">
    <div class="logo">THE SURFACE</div>
-   <nav class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="info.html">Info</a>
-       </nav>
+
+<nav class="nav-links">
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT THIS PROJECT</a>
+    <a href="info.html">INFOS</a>
+   </nav>
+      </div>
+   </header>
+
+<!--PAGE LAYOUT 3 COLUMN (left - center + rigth )*/-->
+   <div class="page-layout">
+      
+
+<!--MAIN 2 Collunm Layout-->
+<div class="home-layout">
+
+  <!--left column-->
+ <div class="home-left">
+<h1 class="main-title">Personality Test</h1>
+
+<p class="description">
+    A personality test where you discover more about your behavior 
+</p>
+
+<div class="info-box">
+  <h3> Why take this test?</h3>
+  <p>This fun retro-style test analyzes your digital habits to guess your online personality.</p>
+<p class="ai-hint">⚠️  Notice: Some interactions may be monitored for “research purposes”.</p>
 </div>
-</header>
-<!--question title-->
-<h1 class="main-title">Question 1</h1>
-<p class="paragraph"> how do you usually start your day?</p>
 
-<!-- ANSWERS -->
-        <label class="answer-option">
-            <input type="radio" name="q1"> Calm
-        </label>
 
-        <label class="answer-option">
-            <input type="radio" name="q1"> Fast and focused
-        </label>
+<a href="test1.html" class="start-button">Start test </a>
+ </div>
 
-        <label class="answer-option">
-            <input type="radio" name="q1"> Slowly
-        </label>
+<div class="home-right">
+  <img src="whoami.jpg" class="who-img">
 
-<!--next button-->
+  <div class="name-box">
+      <p class="box-title">Enter your name</p>
 
- <a href="test2.html" class="start-button">Next</a>
+      <input type="text" placeholder="First name">
+      <input type="text" placeholder="Last name">
 
-<p class="hint-line">behavior copy....</p>
+      <button>Start</button>
+
+      <small>*cookies enabled</small>
   </div>
 </div>
+
+
+
+</div><!--end home layout-->
+
+   <!--rigth side bar-->
+   <aside class="page-right">
+<h3 class="side-title">Sponsored Ads</h3>
+
+ <div class="side-ad">
+            <img src="ad1.jpg">
+            <p>Call and find out your 2004 aura ✧</p>
+ </div>
+<div class="side-ad">
+            <img src="kim.jpg">
+            <p>Which Kardashian are you?</p>
+        </div>
+
+    </aside>
+</div> <!-- end page-layout -->
+    
+</div><!--closed.page-->
+
+     <footer class="footer">
+    © 2025 — Website created by Dyna for CART211.
+</footer>
 </body>
-</html> 
+
+</html>
