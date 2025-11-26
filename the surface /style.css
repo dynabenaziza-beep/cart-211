@@ -7,6 +7,16 @@ body {
   background-position: center;
   background-attachment: fixed; 
 }
+.crack-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url("glitch.gif") center center / cover no-repeat;
+    opacity: 0.4;
+    pointer-events: none;
+}
 
 .window {
     width: 85%;
