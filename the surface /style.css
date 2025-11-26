@@ -355,11 +355,11 @@ body.control-fullscreen {
     overflow: hidden;
 }
 .process-full {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
+   margin-top: 80px;
+   margin: 0 auto;
+    
+    width: 600px;
     height: 400px;
     background: url("process.gif") center center / cover no-repeat;
-    z-index: 1;
+background-size: cover;
 }
