@@ -349,13 +349,14 @@ body.test-mode {
 }
 /*TEXT 4 TIME PAGE */
 body.control-fullscreen {
-    margin: 0;
+ 
     background: black !important;
     height: 100vh;
     overflow: hidden;
+    padding-top: 120px;
 }
 .process-full {
-   margin-top: 80px;
+ 
    margin: 0 auto;
     
     width: 600px;
