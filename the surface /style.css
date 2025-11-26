@@ -142,12 +142,13 @@ align-items: center;
   border-radius: 3px;
   cursor: pointer;
 }
-.name-box small {
+.info-form-box small {
+  font-size: block;
+  margin-top: 4px;
   font-size: 10px;
-color: #003a9f;
-  opacity: 0.7;
+  color: #003a9f;
+  opacity:0.7
 }
-
 /*left column*/
 .page-left {
     position: absolute;
