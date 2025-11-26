@@ -251,3 +251,7 @@ margin-bottom: 12px;
   width: 320px;
   border-radius: 5px;
 }
+.ai-hint {
+  font-size: 11px;
+  opacity: 0.7;
+}
