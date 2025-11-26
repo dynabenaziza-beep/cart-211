@@ -123,12 +123,12 @@ align-items: center;
   font-size: 12px;
   box-shadow: 0 0 5px rgba(0,0,0,0.05);
 }
-.name-box input {
+.info-form-box input {
   width: 100%;
   border: 1px solid #7aa2ff;  /*color of the border*/
-  padding: 5px;     
-  font-size: 12px;   /*letter */
-  border-radius: 3px;
+  padding: 6px;     
+  font-size: 8px;   /*letter */
+  border-radius: 4px;
   margin-bottom: 8px;
 }
 
