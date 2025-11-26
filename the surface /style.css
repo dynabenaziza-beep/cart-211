@@ -36,27 +36,18 @@ body {
   color: #0038a8;
   font-size: 14px;
 }
-/* the two little fake buttons */
-.window-buttons {
-  display: flex;
-  gap: 6px;
-}
-.btn {
-  width: 16px;
-  height: 16px;
-  border: 2px solid #5679ff;
-  border-radius: 3px;
-}
 .window-content{
   padding: 30px;
 }
-/*TOP BAR  INSIDE WINDOW*/
+
 .topbar{
   background:#e7f3ff; /* color bleu box */
   padding:10px 0x;
   border-bottom: 2px solid #8dadff;
   margin-bottom: 20px;
 }
+/*
+TOP BAR  INSIDE WINDOW*/
 /* container for items */
 .topbar-inner{
 width:90%;
@@ -77,35 +68,24 @@ align-items: center;
   color: #003fcc;
   font-size: 14px;
 }
+ .page-layout{
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}   
+/*.main-layout: 2 collumns */
+.home-layout{
+  width: 620px;
+  padding: 20px;
+}
+
+
 /*TEXT AND BUTTONS */
 .main-title{
   font-size:28px;
   color: #0048ff;
   margin-top: 15px;
 }
-.paragraph {
-    color: #0033aa;
-    font-size: 15px;
-    margin-bottom: 10px;
-}
-/*.main-layout: 2 collumns */
-.home-layout{
-  width: 620px;
-  padding: 20px;
-
-}
-/* Left column (bigger)*/
-.home-left{
-  width: 600px;
-}
-
-
-
-/*css for the question page*/
-/*page 1 */
-/*center for question pages */
-
-
 /* short description */
 .description {
   color: #0033aa;
@@ -114,6 +94,10 @@ align-items: center;
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
+
+
+
 
 /* start button */
 .start-button {
@@ -125,21 +109,48 @@ align-items: center;
   text-decoration: none;
   font-size: 16px;
 }
+.who-img {
+  width: 230px;       /* small size */
+  display: block;     /* allows horizontal margins to work */
+  margin-left: auto;  /* PUSHES ONLY the image to the right */
+  margin-bottom: 10px;
+  margin-top: -90px; /*move image up */
 
-/* image in the right column */
-.side-image {
-    width: 280px;       /* perfect retro icon size */
-    border-radius: 6px;
-    display: block;
-    margin-top: 10px;
 }
 
-/*3 colunm page layout */
-.page-layout{
-  display: flex;
-  gap: 30px;
-  align-items: flex-start;
+/* Y2K NAME BOX */
+.name-box {
+  width: 150px; /* same as image */
+  background: #fff29e;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 12px;
+  margin-left: auto; /* align with image */
 }
+
+.name-box input {
+  width: 100%;
+  border: 1px solid #000;
+  padding: 3px;
+  font-size: 11px;
+  margin-bottom: 6px;
+}
+
+.name-box button {
+  width: 100%;
+  background: #004cff;
+  color: white;
+  border: none;
+  padding: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.name-box small {
+  font-size: 9px;
+  opacity: 0.7;
+}
+
 /*left column*/
 .page-left {
     position: absolute;
@@ -167,11 +178,7 @@ margin-bottom: 8px;
 padding-bottom: 8px;
 border-bottom: 1px solid #7aa2ff;
 }
-.side-badge{
-width: 100%;
-margin-bottom: 12px;
-}
-/*RIGHT SIDE BAR */
+
 .page-right{
 width: 180px;
     background: #eef3ff;
@@ -191,17 +198,51 @@ width: 180px;
     width: 100%;
     margin-bottom: 6px;
 }
-.who-img {
-  width: 230px;       /* small size */
-  display: block;     /* allows horizontal margins to work */
-  margin-left: auto;  /* PUSHES ONLY the image to the right */
-  margin-bottom: 10px;
-  margin-top: -90px; /*move image up */
+/* the two little fake buttons */
+.window-buttons {
+  display: flex;
+  gap: 6px;
+}
+.btn {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #5679ff;
+  border-radius: 3px;
 }
 
-.box {
-  background: #fff6a5;
-  border: 2px solid black;
-  padding: 10px;
-  width: 220px;
+
+
+.paragraph {
+    color: #0033aa;
+    font-size: 15px;
+    margin-bottom: 10px;
+    }
+
+/* Left column (bigger)*/
+.home-left{
+  width: 600px;
 }
+
+
+
+/*css for the question page*/
+/*page 1 */
+/*center for question pages */
+
+/* image in the right column */
+.side-image {
+    width: 280px;       /* perfect retro icon size */
+    border-radius: 6px;
+    display: block;
+    margin-top: 10px;
+}
+
+/*3 colunm page layout */
+
+
+.side-badge{
+width: 100%;
+margin-bottom: 12px;
+}
+
+/*RIGHT SIDE BAR */
