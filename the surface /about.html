@@ -3,39 +3,54 @@
 <html lang="en">
  <head>
    <meta charset="UTF-8">
-   <title>About This Test</title>
+   <title>Dyna personality Test</title>
     <link rel="stylesheet" href="style.css">
    </head>
   
     <body>
+
+
+      <!--left sidebar-->
+   <aside class="page-left">
+<h3 class="side-title">Site Badges</h3>
+      <img src="approved.gif" class="side-badge">
+<img src="cool.gif" class="side-badge">
+
+<h3 class="side-title">Best Viewed In</h3>
+<img src="ie.jpg" class="side-badge">
+
+<h3 class="side-title">Visitor</h3>
+<img src="counter.gif" class="side-counter">
+   </aside>
 <!--main white window hold site-->
-<div class="window" > 
+<div class="window"> 
 <!--top bar (fake browser)-->
 <div class="window-top">
 
    <!--small title text inside the bar-->
 <span class="window-title" >Personality Test</span>
-
 </div>
+
 <!--inside computer window -->
 <div class="window-content">
 
 
     <!--top Nav-->
-<header class="topbar"></header>
+<header class="topbar">
    <div class="topbar-inner">
    <div class="logo">THE SURFACE</div>
-
-
-
 
 <nav class="nav-links">
     <a href="index.html">HOME</a>
     <a href="about.html">ABOUT THIS PROJECT</a>
     <a href="info.html">INFOS</a>
    </nav>
-     </div>
+      </div>
    </header>
+
+<!--PAGE LAYOUT 3 COLUMN (left - center + rigth )*/-->
+   <div class="page-layout">
+      
 
 <!--MAIN 2 Collunm Layout-->
 <div class="home-layout">
@@ -43,35 +58,61 @@
   <!--left column-->
  <div class="home-left">
 <h1 class="main-title">Personality Test</h1>
-<p class="paragraph">
-This website is an interactive project created for CART211.It use a simple "personality test" idea , but the goal is not to give a real psychological result.Instead, the project focuses on behaviour.
-</p>
-<p class="paragraph">
-The questions are very simple .When somthing feels easy , people answer quickly without overthinking,and  thats when their natural reastions appear.
-</p>
-<p class="paragraph">
-This project looks at things like;
+
+<p class="description">
+    A personality test where you discover more about your behavior 
 </p>
 
-<ul class="about-list">
-    <li> how fast someone choose an answer</li>
-     <li>whether they go emotional or logical options</li>
-      <li>which choices they avoid</li>
-</ul>
+<div class="info-box">
+  <h3> Why take this test?</h3>
+  <p>This fun retro-style test analyzes your digital habits to guess your online personality.</p>
+<p class="ai-hint">⚠️  Notice: Some interactions may be monitored for “research purposes”.</p>
+</div>
+
+
 <a href="test1.html" class="start-button">Start test </a>
  </div>
 
- <div class="home-right">
-   <img src="whoami.jpg" class="side-image">
+<div class="home-right">
+  <img src="whoami.jpg" class="who-img">
 
- </div>
+  <div class="name-box">
+      <p class="box-title">Enter your name</p>
+
+      <input type="text" placeholder="First name">
+      <input type="text" placeholder="Last name">
+
+      <button>Start</button>
+
+      <small>*cookies enabled</small>
+  </div>
 </div>
+
+
+
+</div><!--end home layout-->
+
+   <!--rigth side bar-->
+   <aside class="page-right">
+<h3 class="side-title">Sponsored Ads</h3>
+
+ <div class="side-ad">
+            <img src="ad1.jpg">
+            <p>Call and find out your 2004 aura ✧</p>
+ </div>
+<div class="side-ad">
+            <img src="kim.jpg">
+            <p>Which Kardashian are you?</p>
+        </div>
+
+    </aside>
+</div> <!-- end page-layout -->
+    
+</div><!--closed.page-->
+
      <footer class="footer">
     © 2025 — Website created by Dyna for CART211.
 </footer>
-
-</div>
-</div> 
-<!--closed.page-->
 </body>
+
 </html>
