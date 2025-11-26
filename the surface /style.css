@@ -70,7 +70,7 @@ align-items: center;
 }
  .page-layout{
   display: flex;
-  gap: 30px;
+  gap: 40px;
   align-items: flex-start;
 }   
 /*.main-layout: 2 collumns */
@@ -107,7 +107,7 @@ align-items: center;
 .who-img {
   width: 280px;       /* small size */
   display: block;     /* allows horizontal margins to work */
-  margin-left: auto;  /* PUSHES ONLY the image to the right */
+  margin-left: 30px auto 0;  /* PUSHES ONLY the image to the right */
   margin:30px auto 0;
   
 
