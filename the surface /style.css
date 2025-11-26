@@ -267,3 +267,7 @@ color: #003a9f;
   font-size: 11px;
   opacity: 0.7;
 }
+.article-layout {
+  width: 620px;
+  padding: 20px;
+}
