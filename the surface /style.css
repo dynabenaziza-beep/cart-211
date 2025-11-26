@@ -147,9 +147,8 @@ align-items: center;
   border-radius: 3px;
   cursor: pointer;
 }
-
 .name-box small {
-  font-size: 9px;
+  font-size: 10px;
 color: #003a9f;
   opacity: 0.7;
 }
