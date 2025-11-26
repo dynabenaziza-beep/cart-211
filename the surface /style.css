@@ -347,3 +347,19 @@ body.test-mode {
 .test-mode {
     background-color: blue;
 }
+/*TEXT 4 TIME PAGE */
+body.control-fullscreen {
+    margin: 0;
+    background: black !important;
+    height: 100vh;
+    overflow: hidden;
+}
+.process-full {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url("process.gif") center center / cover no-repeat;
+    z-index: 1;
+}
