@@ -117,23 +117,25 @@ align-items: center;
   margin-top: -20px; /*move image up */
 
 }
-
 .name-box {
-  background: #e8f0ff;/*ligth bleu */
-  border: 2px solid #7aa2ff;
-  width: 230px;             /* same width as image for aesthetic */
-  padding: 10px;
-  margin: 10px auto 0 auto; /* centers it under the image */
-  text-align: left;
+  background: #f0f6ff;          /* soft blue like the site */
+  border: 2px solid #7aa2ff;    /* blue border as website */
+  width: 230px;                 
+  padding: 12px;
+  margin-left: auto;
+  margin-top: 10px;
+  border-radius: 5px;           /* slightly round  */
   font-size: 12px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
 }
+
 
 .name-box input {
   width: 100%;
-  border: 1px solid #000;
+  border: 1px solid #7aa2ff;
   padding: 4px;
   font-size: 12px;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .name-box button {
@@ -143,13 +145,13 @@ align-items: center;
   border: none;
   padding: 6px;
   font-size: 12px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
 .name-box small {
   font-size: 9px;
-  display: block;
-  margin-top: 4px;
+color: #003a9f;
   opacity: 0.7;
 }
 
