@@ -322,3 +322,11 @@ color: #003a9f;
   padding: 12px 15px;
   margin-top: 20px;
 }
+
+/*USED BY TEST 1 */
+.test-page {
+    margin: 0;
+    background: #f3f8ff;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
