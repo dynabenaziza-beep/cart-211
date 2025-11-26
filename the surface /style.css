@@ -112,16 +112,14 @@ align-items: center;
   
 
 }
-.name-box {
+.info-form-box{
   background: #f0f6ff;          /* soft blue like the site */
-  border: 2px solid #7aa2ff;    /* blue border as website */
-  width: 230px;                 
+  border: 2px solid #7aa2ff;    /* blue border as website */         
   padding: 12px;
-  margin-left: auto;
-  margin-top: 10px;
+  margin-top: 20px;
   border-radius: 5px;           /* slightly round  */
   font-size: 12px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  text-align: left;
 }
 .info-form-box input {
   width: 100%;
