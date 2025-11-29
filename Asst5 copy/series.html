@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Series – HONY</title>
+  <title>Series – Humans of New York</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet"
@@ -31,13 +31,34 @@
   <h1>Humans of New York</h1>
   <h2>Series Archive</h2>
 
-  <p>Humans of New York has expanded into many themed storytelling collections…</p>
+  <p>
+    Over time, Humans of New York has expanded into themed storytelling collections.
+    These series explore deeper narratives and highlight groups of stories connected
+    by a shared place, experience, or subject.
+  </p>
 
   <section class="books">
-    <figure><img src="america_pageant.jpg"></figure>
-    <figure><img src="homework.jpg"></figure>
-    <figure><img src="sketchbook.jpg"></figure>
-    <figure><img src="they_loved_me.jpg"></figure>
+
+    <figure>
+      <img src="assets/america_pageant.jpg" alt="america_pageant">
+      <figcaption>america_pageant.jpg</figcaption>
+    </figure>
+
+    <figure>
+      <img src="assets/homework.jpg" alt="homework">
+      <figcaption>homework.jpg</figcaption>
+    </figure>
+
+    <figure>
+      <img src="assets/sketchbook.jpg" alt="sketchbook">
+      <figcaption>sketchbook.jpg</figcaption>
+    </figure>
+
+    <figure>
+      <img src="assets/they_loved_me.jpg" alt="they_loved_me">
+      <figcaption>they_loved_me.jpg</figcaption>
+    </figure>
+
   </section>
 
   <footer>
@@ -53,13 +74,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const openBtn = document.querySelector(".hamburger-button");
   const closeBtn = document.querySelector(".close-menu");
 
-  openBtn.addEventListener("click", () => menu.classList.add("menu-deployed"));
-  closeBtn.addEventListener("click", () => menu.classList.remove("menu-deployed"));
+  openBtn.addEventListener("click", () => {
+    menu.classList.add("menu-deployed");
+  });
+
+  closeBtn.addEventListener("click", () => {
+    menu.classList.remove("menu-deployed");
+  });
 });
 </script>
 
 </body>
 </html>
+
 
 
 

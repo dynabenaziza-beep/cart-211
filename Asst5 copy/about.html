@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About – HONY</title>
+  <title>About – Humans of New York</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet"
@@ -31,7 +31,17 @@
   <h1>Humans of New York</h1>
   <h2>About the Project</h2>
 
-  <p>Humans of New York began in 2010 as a photography project...</p>
+  <p>
+    Humans of New York is a photography and storytelling project started by Brandon Stanton in 2010.
+    What began as a goal to photograph ten thousand New Yorkers has grown into a global archive of
+    portraits and personal stories from people all over the world.
+  </p>
+
+  <p>
+    Each post combines an image with a short caption or longer narrative, offering a glimpse into the
+    subject’s life. Together, these stories explore themes of love, loss, work, family, and identity,
+    while emphasizing the dignity and complexity of every person.
+  </p>
 
   <footer>
     © Dyna Benaziza, cart 211, fall 2025, assessment 5,
@@ -46,8 +56,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const openBtn = document.querySelector(".hamburger-button");
   const closeBtn = document.querySelector(".close-menu");
 
-  openBtn.addEventListener("click", () => menu.classList.add("menu-deployed"));
-  closeBtn.addEventListener("click", () => menu.classList.remove("menu-deployed"));
+  openBtn.addEventListener("click", () => {
+    menu.classList.add("menu-deployed");
+  });
+
+  closeBtn.addEventListener("click", () => {
+    menu.classList.remove("menu-deployed");
+  });
 });
 </script>
 
