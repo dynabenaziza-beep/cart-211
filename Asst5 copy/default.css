@@ -1,11 +1,11 @@
 /* ===========================
    GLOBAL
-   =========================== */
+=========================== */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: rgb(32, 49, 1); /* dark green */
-  color: rgb(185, 255, 80);   /* light green text */
+  color: rgb(185, 255, 80);   /* light green */
 }
 
 img {
@@ -15,10 +15,9 @@ img {
 
 /* ===========================
    NAVIGATION BAR
-   =========================== */
+=========================== */
 .menu1 {
   background: black;
-  color: rgb(185, 255, 80);
   padding: 12px 16px;
   display: flex;
   justify-content: space-between;
@@ -33,13 +32,11 @@ img {
   color: rgb(185, 255, 80);
   text-decoration: none;
   margin-left: 16px;
-  display: none; /* visible only on desktop */
+  display: none; /* hidden on mobile */
 }
 
-/* Hamburger */
 .hamburger-menu {
   display: block;
-  font-size: 24px;
 }
 
 .hamburger-button {
@@ -49,14 +46,10 @@ img {
   font-size: 24px;
 }
 
-/* Fullscreen Menu (mobile) */
+/* FULL SCREEN MOBILE MENU */
 .menu1.menu-deployed {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-
+  inset: 0;
   background: rgb(32, 49, 1);
   display: flex;
   flex-direction: column;
@@ -68,6 +61,7 @@ img {
   display: block;
   margin: 20px 0;
   font-size: 26px;
+  text-align: center;
 }
 
 .menu1.menu-deployed .hamburger-menu {
@@ -76,13 +70,13 @@ img {
 
 .close-menu {
   display: none;
-  background: none;
-  border: none;
-  color: rgb(185, 255, 80);
-  font-size: 32px;
   position: absolute;
   top: 20px;
   right: 20px;
+  background: none;
+  border: none;
+  font-size: 32px;
+  color: rgb(185, 255, 80);
 }
 
 .menu1.menu-deployed .close-menu {
@@ -90,15 +84,15 @@ img {
 }
 
 /* ===========================
-   PAGE CONTENT WRAPPER
-   =========================== */
+   PAGE CONTENT
+=========================== */
 .page-wrapper {
-  padding: 100px 20px 40px; /* space under nav */
+  padding: 100px 20px 40px;
 }
 
 /* ===========================
-   HOME / SERIES / GRID
-   =========================== */
+   GRID (HOME + SERIES)
+=========================== */
 .books {
   display: grid;
   grid-template-columns: 1fr;
@@ -110,17 +104,20 @@ figure {
   margin: 0;
 }
 
-/* Desktop grid (2 columns) */
+/* DESKTOP */
 @media (min-width: 768px) {
   .books {
     grid-template-columns: 1fr 1fr;
   }
+
   .hamburger-menu {
     display: none;
   }
+
   .nav-links a {
     display: inline-block;
   }
+
   .close-menu {
     display: none;
   }
@@ -128,13 +125,15 @@ figure {
 
 /* ===========================
    FOOTER
-   =========================== */
+=========================== */
 footer {
   text-align: center;
   margin-top: 40px;
   padding-top: 20px;
   font-size: 12px;
+  color: rgb(185, 255, 80);
 }
+
 
 
 

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Series – Humans of New York</title>
+  <title>Ms. America Pageant – HONY</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet"
@@ -12,7 +12,6 @@
 
 <body>
 
-<!-- NAVIGATION BAR -->
 <nav class="menu1">
   <div class="hamburger-menu">
     <button class="hamburger-button"><i class="fa fa-bars"></i></button>
@@ -27,32 +26,17 @@
   <button class="close-menu">&times;</button>
 </nav>
 
-<!-- MAIN CONTENT -->
 <main class="page-wrapper">
 
   <h1>Humans of New York</h1>
-  <h2>Series Archive</h2>
+  <h2>Ms. America pageant</h2>
 
-  <p>
-    Over the years, Humans of New York has expanded beyond individual portraits into themed
-    storytelling series. These collections explore deeper narratives and highlight stories
-    connected by shared experiences, journeys, and identities.
-  </p>
+  <img src="america_pageant.jpg" alt="Ms. America Pageant">
 
-  <p>
-    Below is a small preview of potential series content. You may replace these images or expand
-    the grid with more series entries.
-  </p>
+  <!-- FULL QUOTE -->
+  <p>“I was seventeen. Only child, not a lot of friends. But I had a plan...</p>
+  <!-- (You can keep the long text exactly as we wrote earlier) -->
 
-  <!-- SMALL PREVIEW GRID -->
-  <section class="books">
-    <figure><img src="america_pageant.jpg" alt=""></figure>
-    <figure><img src="homework.jpg" alt=""></figure>
-    <figure><img src="sketchbook.jpg" alt=""></figure>
-    <figure><img src="they_loved_me.jpg" alt=""></figure>
-  </section>
-
-  <!-- FOOTER -->
   <footer>
     © Dyna Benaziza, cart 211, fall 2025, assessment 5,
     credits: humansofnyarchive.com
@@ -60,25 +44,20 @@
 
 </main>
 
-<!-- HAMBURGER MENU SCRIPT -->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const menu = document.querySelector(".menu1");
   const openBtn = document.querySelector(".hamburger-button");
   const closeBtn = document.querySelector(".close-menu");
 
-  openBtn.addEventListener("click", () => {
-    menu.classList.add("menu-deployed");
-  });
-
-  closeBtn.addEventListener("click", () => {
-    menu.classList.remove("menu-deployed");
-  });
+  openBtn.addEventListener("click", () => menu.classList.add("menu-deployed"));
+  closeBtn.addEventListener("click", () => menu.classList.remove("menu-deployed"));
 });
 </script>
 
 </body>
 </html>
+
 
 
 
