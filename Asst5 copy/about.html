@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Humans of New York – About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome for hamburger icon -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="default.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="menu1">
+    <div class="hamburger-menu">
+      <button class="hamburger-button" aria-label="Open menu">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html">STORIES</a>
+      <a href="story.html">SERIES</a>
+      <a href="about.html">ABOUT</a>
+    </div>
+
+    <button class="close-menu" aria-label="Close menu">&times;</button>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="page-wrapper">
+    <header class="page-header">
+      <h1>Humans of New York</h1>
+      <h2>About the Project</h2>
+    </header>
+
+    <section class="about-section">
+      <p>
+        Humans of New York began as a small photography project, with the goal
+        of creating a visual map of the people who live in New York City.
+        Over time, the portraits were paired with short interviews, turning
+        the project into a large archive of personal stories.
+      </p>
+      <p>
+        The mission of Humans of New York is simple: to show that every person
+        has a story worth hearing. By sharing these moments publicly, the
+        project invites empathy, curiosity, and connection between strangers.
+      </p>
+      <p>
+        This website is a student project that recreates the idea in a very
+        minimal way, focusing on clear text, simple images, and quiet space
+        around each story.
+      </p>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    © Dyna Benaziza, cart 211, fall 2025, assessment 5, credits: humansofnyarchive.com
+  </footer>
+
+  <!-- REQUIRED JS (on every page) -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const hamburgerButton = document.querySelector('.hamburger-menu .hamburger-button'); 
+        const closeButton = document.querySelector('.close-menu');
+        const menu1 = document.querySelector('.menu1'); 
+
+        hamburgerButton.addEventListener('click', () => {
+            menu1.classList.add('menu-deployed');
+        });
+
+        closeButton.addEventListener('click', () => {
+            menu1.classList.remove('menu-deployed');
+        });
+    });
+  </script>
+</body>
+</html>

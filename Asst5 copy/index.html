@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Humans of New York – Stories</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome for hamburger icon -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="default.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="menu1">
+    <div class="hamburger-menu">
+      <button class="hamburger-button" aria-label="Open menu">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html">STORIES</a>
+      <a href="story.html">SERIES</a> <!-- links to story page as your second page -->
+      <a href="about.html">ABOUT</a>
+    </div>
+
+    <button class="close-menu" aria-label="Close menu">&times;</button>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="page-wrapper">
+    <header class="page-header">
+      <h1>Humans of New York</h1>
+    </header>
+
+    <section class="intro">
+      <p>
+        Humans of New York is a portrait-style storytelling project that began
+        with one photographer walking the streets of New York City and asking
+        strangers to share a small piece of their lives. Each story is short,
+        personal, and rooted in everyday moments.
+      </p>
+      <p>
+        This student website is a simple tribute to that idea: a quiet space to
+        browse faces, fragments, and feelings captured in the city.
+      </p>
+    </section>
+
+    <!-- IMAGE GRID (BOOKS) -->
+    <section>
+      <h2 class="section-title">Street Portraits</h2>
+
+      <div class="books">
+        <figure>
+          <img src="assets/image-1.jpg" alt="Street portrait 1">
+          <figcaption>“I didn’t plan to talk today.”</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/image-2.jpg" alt="Street portrait 2">
+          <figcaption>“This is my favorite corner.”</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/image-3.jpg" alt="Street portrait 3">
+          <figcaption>“I still call it home.”</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/image-4.jpg" alt="Street portrait 4">
+          <figcaption>“I’m learning to start over.”</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/image-5.jpg" alt="Street portrait 5">
+          <figcaption>“This was never the plan.”</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/image-6.jpg" alt="Street portrait 6">
+          <figcaption>“She told me to be brave.”</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/image-7.jpg" alt="Street portrait 7">
+          <figcaption>“I kept the letter.”</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/image-8.jpg" alt="Street portrait 8">
+          <figcaption>“I’m just passing through.”</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/image-9.jpg" alt="Street portrait 9">
+          <figcaption>“It took me years to say it.”</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/image-10.jpg" alt="Street portrait 10">
+          <figcaption>“We met on this bench.”</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/image-11.jpg" alt="Street portrait 11">
+          <figcaption>“I almost gave up.”</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/image-12.jpg" alt="Street portrait 12">
+          <figcaption>“I’m finally listening to myself.”</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    © Dyna Benaziza, cart 211, fall 2025, assessment 5, credits: humansofnyarchive.com
+  </footer>
+
+  <!-- REQUIRED JS (on every page) -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const hamburgerButton = document.querySelector('.hamburger-menu .hamburger-button'); 
+        const closeButton = document.querySelector('.close-menu');
+        const menu1 = document.querySelector('.menu1'); 
+
+        hamburgerButton.addEventListener('click', () => {
+            menu1.classList.add('menu-deployed');
+        });
+
+        closeButton.addEventListener('click', () => {
+            menu1.classList.remove('menu-deployed');
+        });
+    });
+  </script>
+</body>
+</html>

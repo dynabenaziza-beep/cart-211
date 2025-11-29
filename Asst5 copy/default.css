@@ -1,0 +1,229 @@
+/* ===========================
+   1. GLOBAL STYLES
+   =========================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(32, 49, 1);         /* dark green */
+  color: rgb(185, 255, 80);                 /* light yellow-green */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: rgb(185, 255, 80);
+  text-decoration: none;
+}
+
+/* Simple main wrapper */
+.page-wrapper {
+  padding: 80px 16px 32px;  /* top padding leaves space for fixed nav */
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.page-header h1 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 2rem;
+}
+
+.page-header h2 {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+/* Section titles */
+.section-title {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-size: 1.4rem;
+}
+
+/* ===========================
+   2. NAVIGATION (MOBILE FIRST)
+   =========================== */
+
+/* Fixed black bar at the top */
+.menu1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: #000;
+  color: rgb(185, 255, 80);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px 16px;
+  z-index: 1000;
+}
+
+/* Hamburger (mobile) */
+.hamburger-menu {
+  display: block;
+}
+
+.hamburger-button {
+  background: none;
+  border: none;
+  color: rgb(185, 255, 80);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Links: hidden by default on mobile */
+.nav-links a {
+  display: none;
+  font-size: 1rem;
+}
+
+/* Close button: hidden by default */
+.close-menu {
+  display: none;
+  background: none;
+  border: none;
+  color: rgb(185, 255, 80);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Full-screen menu when deployed (mobile overlay) */
+.menu1.menu-deployed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: rgb(32, 49, 1);
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Show links in deployed state */
+.menu1.menu-deployed .nav-links a {
+  display: block;
+  margin: 8px 0;
+  font-size: 1.5rem;
+}
+
+/* Hide hamburger when open */
+.menu1.menu-deployed .hamburger-menu {
+  display: none;
+}
+
+/* Show close button when open */
+.menu1.menu-deployed .close-menu {
+  display: block;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+/* ===========================
+   3. HOME / STORY / ABOUT CONTENT
+   =========================== */
+
+.intro p,
+.about-section p,
+.story-section p {
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+/* Story layout (still simple, single column on mobile) */
+.story-section {
+  margin-top: 16px;
+}
+
+.story-hero {
+  margin: 0 0 16px 0;
+}
+
+.story-text {
+  font-size: 1rem;
+}
+
+/* ===========================
+   4. BOOKS GRID (IMAGE GRID)
+   =========================== */
+
+/* Mobile-first: 1 column */
+.books {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.books figure {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.books figcaption {
+  margin-top: 4px;
+}
+
+/* ===========================
+   5. FOOTER
+   =========================== */
+
+footer {
+  padding: 16px;
+  font-size: 0.8rem;
+  text-align: center;
+  border-top: 1px solid rgb(185, 255, 80);
+  margin-top: 24px;
+}
+
+/* ===========================
+   6. DESKTOP / TABLET (>= 768px)
+   =========================== */
+
+@media (min-width: 768px) {
+
+  /* Desktop nav: simple horizontal bar, links always visible */
+  .hamburger-menu {
+    display: none;
+  }
+
+  .close-menu {
+    display: none;
+  }
+
+  .nav-links a {
+    display: inline-block;
+    margin-left: 16px;
+  }
+
+  .menu1 {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .nav-links {
+    margin-left: 8px;
+  }
+
+  /* 2-column grid for the main image grid (.books) */
+  .books {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
