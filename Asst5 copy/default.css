@@ -121,6 +121,7 @@ body {
     font-variation-settings: "wdth" 100;
     padding: 0%;
     margin: 0%;
+    background-color: #F7F2B2; /* soft yellow */
 }
 
 /*For any links in the text, don't underline*/
