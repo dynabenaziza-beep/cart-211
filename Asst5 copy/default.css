@@ -322,11 +322,11 @@ footer a {
     color: #F7F2B2; /* yellow */
 }
 
-    .menu1 a:hover {
-        text-decoration: none;
-        color: gray;
-        background-color: transparent;
-    }
+.hover-text {
+    background-color: rgba(28, 59, 40, 0.85);
+    color: #F7F2B2;
+}
+
 
     .close-menu {
         display: block;
