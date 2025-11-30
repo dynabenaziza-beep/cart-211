@@ -448,3 +448,13 @@ background-size: cover;
         font-size: 18px;
         color: #003fcc;
     }
+        /* ----- IMAGES ----- */
+    img,
+    .who-img,
+    .info-hero,
+    .side-image {
+        max-width: 100%;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
