@@ -384,8 +384,6 @@ background-size: cover;
   font-size: 12px;
   opacity: 0.7;
 }
-
-
 /*fir MOBILE LAY OUT */
 
 @media (max-width: 1024px) {}
@@ -408,4 +406,26 @@ background-size: cover;
         padding: 20px;
     }
 
+/* ----- PAGE LAYOUT (STACK COLUMNS) ----- */
+    .page-layout {
+        display: block;
+    }
 
+
+    /* ----- LEFT SIDEBAR ----- */
+    .page-left {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        background: #eef3ff;
+        border: 2px solid #7aa2ff;
+    }
+    /* ----- RIGHT SIDEBAR ----- */
+    .page-right {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        background: #eef3ff;
+        border: 2px solid #7aa2ff;
+        text-align: center;
+    }
