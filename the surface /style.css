@@ -386,3 +386,13 @@ background-size: cover;
 }
 
 
+/*fir MOBILE LAY OUT */
+
+@media (max-width: 1024px) {}
+ html, body {
+        width: 100%;
+        min-width: 0;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
