@@ -404,3 +404,8 @@ background-size: cover;
         margin-left: auto !important;
         border: 2px solid #7aa2ff;
     }
+.window-content {
+        padding: 20px;
+    }
+
+
