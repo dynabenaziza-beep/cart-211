@@ -429,3 +429,22 @@ background-size: cover;
         border: 2px solid #7aa2ff;
         text-align: center;
     }
+/* ----- TOPBAR NAVIGAITON ----- */
+    .topbar-inner {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    nav.nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    nav.nav-links a {
+        font-size: 18px;
+        color: #003fcc;
+    }
