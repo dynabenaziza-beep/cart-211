@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vh;
     height: 100%;
     
     background: url("glitch.gif") center center / cover no-repeat;
@@ -458,3 +458,16 @@ background-size: cover;
         margin: 20px auto;
         display: block;
     }
+/* ----- INFO BOXES ----- */
+    .info-box,
+    .info-form-box {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+
+    /* ----- AD BOXES ----- */
+    .side-ad img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
