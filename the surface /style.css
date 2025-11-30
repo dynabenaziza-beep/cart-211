@@ -396,3 +396,11 @@ background-size: cover;
         margin: 0;
         padding: 0;
     }
+
+     /* ----- WINDOW ----- */
+    .window {
+        width: 95%;
+        margin: 40px auto;
+        margin-left: auto !important;
+        border: 2px solid #7aa2ff;
+    }
