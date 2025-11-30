@@ -369,16 +369,17 @@ footer a {
         border-bottom: 4px solid black;
         background: black;
         z-index: 1000;
-        color: white;
+        background-color: #1C3B28; /* deep green */
+    border-bottom: 3px solid black;
     }
 
     nav a {
-        color: white;
-        margin-left: 25px;
+       color: #F7F2B2; /* yellow */
+       margin-left: 25px;
     }
 
     nav a:hover {
-        color: gray;
+   color: #E3E7A1; /* light yellow */
     }
 
     h1 {
