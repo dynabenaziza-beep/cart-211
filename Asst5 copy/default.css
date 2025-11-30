@@ -314,11 +314,14 @@ footer a {
         /* Ensure the menu is above other elements */
     }
 
-    .menu1 a {
-        padding: 20px;
-    }
+   .menu1 {
+    background-color: #1C3B28; /* green */
+}
 
-    .menu1 a,
+.menu1 a {
+    color: #F7F2B2; /* yellow */
+}
+
     .menu1 a:hover {
         text-decoration: none;
         color: gray;
